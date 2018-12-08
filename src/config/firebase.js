@@ -1,6 +1,6 @@
 import * as firebase from 'firebase';
 
-import { FirbaseConfig } from './../config/keys';
+import { FirebaseConfig } from './keys';
 firebase.initializeApp(FirebaseConfig);
 
 const databaseRef = firebase.database().ref();
